@@ -1,0 +1,17 @@
+{
+   "content_scripts": [ {
+      "css": [ "gaf.css" ],
+      "js": [ "jquery.js", "highlight.js", "gaf.js" ],
+      "matches": [ "http://www.neogaf.com/*" ]
+   } ],
+   "description": "Nifty keyboard shortcuts and utilities for NeoGAF.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDFocGeJT0RE8n4CP/ROKcloIC1Y93AkKmNefUg+vvm9ZfDVpG4Sxy6gdiNuiw/GKnbN5a/ys+b0gg+v01cI34SGV/GAwdVQ9VLi/0APqkTY1YlmKKLwewzGWvDy7RHORUAAYoHvKhJAjumTgOx4qk3MTY2arQaptQsUuc0w8fR/wIDAQAB",
+   "name": "NeoGAF Keyboard Shortcuts",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.9"
+}
